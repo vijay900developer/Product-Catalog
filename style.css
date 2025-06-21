@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
